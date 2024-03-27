@@ -1,0 +1,367 @@
+*{
+    
+    margin: 0px;
+    padding: 0px;
+}
+.row{
+    margin: 0px;
+    padding: 0px;
+}
+
+.brand-logo{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.brand-logo p{
+    font-size: 3.5rem;
+    color: rgb(234, 99, 65);
+    font-weight: 800;
+}
+.brand-logo span{
+    color: black;
+    font-weight: 100;
+}
+.box{
+    width: 5rem;
+    height: 5rem;
+    box-shadow: -0.5rem -0.5rem 0rem 0.5rem ;
+    background-color: rgb(80, 118, 133);
+}
+
+.side-txt-con {
+    width: 35rem;
+    margin-right: 9rem;
+    border-radius: 0rem 0rem 300px 300px;
+    background-color: rgb(80, 118, 133,0.9);
+    position: absolute;
+    
+}
+
+.side-text p{
+    font-size: 4rem;
+    width: 23rem;
+    font-weight: 900;
+    margin-bottom: 12rem;
+    color: white;
+    margin-top: 24rem;
+    text-align: center;
+}
+.header-img{
+    margin: 0px;
+    padding: 0px;
+}
+.header-img img{
+    
+    margin: 0px;
+    padding: 0px;
+}
+.left-con {
+    margin-top: 2rem;
+}
+.serv{
+    font-size: 2rem;
+    color: rgb(80, 118, 133);
+    font-weight: 800;
+
+}
+.serv-name{
+    color: rgb(80, 118, 133);
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 0rem;
+}
+.left-content{
+    margin-top: 3rem;
+} 
+.num{
+    color: rgb(234, 99, 65);
+    height:fit-content ;
+    font-size: 7rem;
+}
+.right-con span{
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: white;
+}
+.about{
+    background-color: rgb(80, 118, 133,0.9);
+    height: 40%;
+
+}
+.para{
+    width: 70%;
+    color: white;
+}
+.contact{
+    background-color:rgb(234, 99, 65) ;
+    height: 40%;
+}
+.web{
+    background-color: rgb(212, 228, 228);
+    height: 20%;
+}
+hr{
+    margin-bottom: 0rem;
+    height: 1rem;
+    margin-top: 4rem;
+    background-color:rgb(234, 99, 65) ;
+
+}
+@media only screen and (max-width:1024px) {
+    
+        
+.brand-logo{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.brand-logo p{
+    font-size: 2.7rem;
+    color: rgb(234, 99, 65);
+    font-weight: 800;
+}
+.brand-logo span{
+    color: black;
+    font-weight: 100;
+}
+.box{
+    width: 3rem;
+    height: 3rem;
+    box-shadow: -0.4rem -0.4rem 0rem 0.4rem ;
+    background-color: rgb(80, 118, 133);
+}
+
+.side-txt-con {
+    width: 24rem;
+    margin-right: 7.5rem;
+    border-radius: 0rem 0rem 300px 300px;
+    background-color: rgb(80, 118, 133,0.9);
+    position: absolute;
+    
+}
+
+.side-text p{
+    font-size: 3rem;
+    width: 20rem;
+    font-weight: 900;
+    margin-bottom: 7rem;
+    color: white;
+    margin-top: 18rem;
+    text-align: center;
+}
+}
+
+@media only screen and (max-width:768px) {
+    
+     
+    .brand-logo p{
+        font-size: 2rem;
+    }
+    .box{
+        width: 2.5rem;
+        height: 2.5rem;
+        box-shadow: -0.3rem -0.3rem 0rem 0.3rem ;
+    }
+    
+    .side-txt-con {
+        width: 20rem;
+        margin-right: 6.5rem;
+    }
+    
+    .side-text p{
+        font-size: 3rem;
+        width: 18rem;
+        margin-bottom: 5rem;
+        margin-top: 15rem;
+    }
+    .left-content{
+        margin-top: 3rem;
+    } 
+    
+    .serv-name{
+         font-size: 1rem;
+        margin-bottom: 0rem;
+    }
+    .lorem{
+        font-size: 0.5rem;
+    }
+    .num{
+        color: rgb(234, 99, 65);
+        height:fit-content ;
+        font-size: 3.4rem;
+    }
+    
+    .para{
+        width: 70%;
+        font-size: 0.7rem;
+        color: white;
+    }
+    .right-con span{
+            font-size: 1rem;
+            font-weight: 700;
+            color: white;
+    }
+    }
+    @media only screen and (max-width:600px){
+        
+        .brand-logo{
+            margin-top: 2rem;
+            margin-bottom: 3rem;
+        }
+        .brand-logo p{
+            font-size: 1.5rem;
+            color: rgb(234, 99, 65);
+            font-weight: 800;
+        }
+        .brand-logo span{
+            color: black;
+            font-weight: 100;
+        }
+        .box{
+            width: 2.5rem;
+            height: 2.5rem;
+            box-shadow: -0.3rem -0.3rem 0rem 0.3rem ;
+            background-color: rgb(80, 118, 133);
+        }
+        
+        .side-txt-con {
+            width: 12rem;
+            margin-right:-17rem;
+            border-radius: 0rem 0rem 300px 300px;
+            background-color: rgb(80, 118, 133,0.9);
+            position: absolute;
+            
+        }
+        
+        .side-text p{
+            font-size: 2rem;
+            width: 13rem;
+            font-weight: 900;
+            margin-bottom: 4rem;
+            color: white;
+            margin-top: 3.5rem;
+            text-align: center;
+        }
+        
+ 
+    }
+    
+    @media only screen and (max-width:425px){
+        
+        .brand-logo{
+            margin-top: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        .brand-logo p{
+            font-size: 1rem;
+            color: rgb(234, 99, 65);
+            font-weight: 800;
+        }
+        .brand-logo span{
+            color: black;
+            font-weight: 100;
+        }
+        .box{
+            width: 2rem;
+            height: 2rem;
+            box-shadow: -0.2rem -0.2rem 0rem 0.2rem ;
+            background-color: rgb(80, 118, 133);
+        }
+        
+        .side-txt-con {
+            width: 9rem;
+            margin-right:-13rem;
+            border-radius: 0rem 0rem 300px 300px;
+            background-color: rgb(80, 118, 133,0.9);
+            position: absolute;
+            
+        }
+        
+        .side-text p{
+            font-size: 1.5rem;
+            width: 10rem;
+            font-weight: 900;
+            margin-bottom: 3rem;
+            color: white;
+            margin-top: 2rem;
+            text-align: center;
+        }
+        
+       .left-content{
+            margin-top: 2rem;
+        } 
+        
+        .right-con span{
+            font-size: 1rem;
+            font-weight: 700;
+            color: white;
+        }
+ 
+        .para{
+            width: 70%;
+            color: white;
+            font-size: 0.5rem;
+        }
+        .about{
+            background-color: rgb(80, 118, 133,0.9);
+            height: 45%;
+        
+        }
+        
+        .contact{
+           background-color:rgb(234, 99, 65) ;
+            height: 45%;
+        }
+        .web{
+            background-color: rgb(212, 228, 228);
+            height: 25%;
+         }
+    }
+
+    
+    @media only screen and (max-width:325px){
+        
+        .brand-logo{
+            margin-top: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .brand-logo p{
+            font-size: 1rem;
+            color: rgb(234, 99, 65);
+            font-weight: 800;
+        }
+        .brand-logo span{
+            color: black;
+            font-weight: 100;
+        }
+        .box{
+            width: 1.5rem;
+            height: 1.5rem;
+            box-shadow: -0.2rem -0.2rem 0rem 0.2rem ;
+            background-color: rgb(80, 118, 133);
+        }
+        
+        .side-txt-con {
+            width: 6rem;
+            margin-right:-12rem;
+            border-radius: 0rem 0rem 300px 300px;
+            background-color: rgb(80, 118, 133,0.9);
+            position: absolute;
+            margin-top: -3rem;
+            
+        }
+        
+        .side-text p{
+            font-size: 1rem;
+            width: 9rem;
+            font-weight: 900;
+            margin-bottom: 3rem;
+            color: white;
+            margin-top: 4rem;
+            text-align: center;
+        }
+        
+       .left-content{
+            margin-top: 1rem;
+        } 
+        
+    }
